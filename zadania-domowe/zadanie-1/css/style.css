@@ -1,0 +1,110 @@
+.grandekwadrat {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: #ccc;
+    border: solid 2px #ccc;
+    z-index: 1;
+}
+
+div[class^="kwadrat"] {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ccc;
+    z-index: 2;
+    box-sizing: content-box;
+}
+
+div[class^="kolo"] {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: solid 1px #000;
+    border-radius: 100%;
+    z-index: 2;
+    margin: 0 auto;
+    top: 50px;
+
+}
+
+.kwadrat-1, 
+.kolo-5 {
+    background-color: #fe0000;
+}
+
+.kwadrat-2,
+.kolo-6 {
+    background-color: #0200fe;
+  }
+
+.kwadrat-3,
+.kolo-4 {
+    background-color: #008001;
+  }
+
+.kwadrat-4,
+.kolo-8 {
+    background-color: #ffff01;
+  }
+
+.kwadrat-5,
+.kolo-9 {
+    background-color: #000000;
+  }
+
+.kwadrat-6,
+.kolo-7 {
+    background-color: #fea500;
+  }
+  
+.kwadrat-7,
+.kolo-3 {
+    background-color: #81007f;
+  }
+
+.kwadrat-8,
+.kolo-2 {
+    background-color: #808080;
+  }
+  
+.kwadrat-9,
+.kolo-1 {
+    background-color: #ffc0cb;
+  }
+
+#kwadrat-2 {
+    right: 200px;
+  }
+
+#kwadrat-3 {
+    right: 0;
+  }
+
+#kwadrat-4 {
+    top: 200px;
+  }
+
+#kwadrat-5 {
+    top: 200px;
+    right: 200px;
+  }
+
+#kwadrat-6 {
+    top: 200px;
+    right: 0;
+  }
+  
+#kwadrat-7 {
+    bottom: 0;
+  }
+
+#kwadrat-8 {
+    bottom: 0;
+    right: 200px;
+  }
+  
+#kwadrat-9 {
+    bottom: 0;
+    right: 0;
+  }
