@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Zadanie #14649</title>
+</head>
+<body>
+    
+    <form action="https://formspree.io/michal@e-post.pl" method="POST">
+        <label for="name">Imię</label>
+        <input type="text" name="name" id="name" required>
+        <label for="lastname">Nazwisko</label>
+        <input type="text" name="lastname" id="lastname" required>
+        <label for="email">E-mail</label>
+        <input type="email" name="_replyto" id="email">
+        <label for="phone">Numer telefonu</label>
+        <input type="tel" name="phone" id="phone">
+        <label for="city">Wybierz miasto:</label>
+        <select name="city" id="city">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select>
+        <p>Wybierz płeć:</p>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Mężczyzna</label>
+        <br>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Kobieta</label>
+        <input type="checkbox" id="agreement" name="agreement">
+        <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        <label for="textbox">Wiadomość</label>
+        <textarea name="text" id="textbox"></textarea>
+        <input type="submit" value="Wyślij">
+    </form>
+
+</body>
+</html>
