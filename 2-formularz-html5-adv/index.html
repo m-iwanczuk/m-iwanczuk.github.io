@@ -8,16 +8,26 @@
     <title>Zadanie #14707</title>
 </head>
 <body>
+
+    <h1>A Simple Form</h1>
+    <h2>Form Fundamentals</h2>
     
     <form name="form1" action="https://formspree.io/michal@e-post.pl" method="POST" autocomplete="on">
-        <label for="name">Imię</label>
-        <input type="text" name="name" id="name" placeholder="Wpisz swoje imię" required>
-        <label for="phone">Numer telefonu</label>
-        <input type="tel" name="phone" id="phone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Wpisz numer w formacie: 1-234-567-8910" required>
-        <label for="email">E-mail</label>
-        <input type="email" name="_replyto" id="email" placeholder="Adres e-mail" required>
+        <fieldset name="customer-info">
+        <legend>Customer Info</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        <br>
+        <label for="phone">Telephone:</label>
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Pattern: 1-234-567-8910" required>
+        <br>
+        <label for="email">Email address:</label>
+        <input type="email" name="_replyto" id="email" placeholder="Enter your email address" required>
+    </fieldset>
        
-        <label for="books">Wybierz miasto:</label>
+    <fieldset name="booksfield">
+        <legend>Books</legend>
+        <label for="books"></label>
         <select name="books" id="booka">
             <option value="book1">Książka 1</option>
             <option value="book2">Książka 2</option>
@@ -27,7 +37,9 @@
         </select>
         <label for="quantity"> Ilość (Max 5):</label>
         <input type="number" min="1" max="5">
+        <br>
         <input type="submit" value="Wyślij">
+    </fieldset>
     </form>
 
 

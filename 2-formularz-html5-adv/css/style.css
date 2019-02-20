@@ -1,0 +1,28 @@
+form {
+    width: 65%;
+}
+
+fieldset[name=customer-info] {
+    display: block;
+}
+
+input,
+select {
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 10px;
+    width: 30%;
+}
+
+h1 {
+    color: blue;
+    font-style: italic;
+    margin-bottom: -24px;
+    }
+
+h2 {
+color: rgb(141, 130, 238);
+font-style: italic;
+font-size: 20px;
+
+}
