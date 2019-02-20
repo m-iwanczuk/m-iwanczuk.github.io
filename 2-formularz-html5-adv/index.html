@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Zadanie #14707</title>
+</head>
+<body>
+    
+    <form name="form1" action="https://formspree.io/michal@e-post.pl" method="POST" autocomplete="on">
+        <label for="name">Imię</label>
+        <input type="text" name="name" id="name" placeholder="Wpisz swoje imię" required>
+        <label for="phone">Numer telefonu</label>
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Wpisz numer w formacie: 1-234-567-8910" required>
+        <label for="email">E-mail</label>
+        <input type="email" name="_replyto" id="email" placeholder="Adres e-mail" required>
+       
+        <label for="books">Wybierz miasto:</label>
+        <select name="books" id="booka">
+            <option value="book1">Książka 1</option>
+            <option value="book2">Książka 2</option>
+            <option value="book3">Książka 3</option>
+            <option value="book4">Książka 4</option>
+            <option value="book5">Książka 5</option>
+        </select>
+        <label for="quantity"> Ilość (Max 5):</label>
+        <input type="number" min="1" max="5">
+        <input type="submit" value="Wyślij">
+    </form>
+
+
+</body>
+</html>
