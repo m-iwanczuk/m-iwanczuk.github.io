@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .header-inner {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-image: url(../img/man-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+        
+}
+
+header .header-inner p {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;    
+    margin: 0px 0px 20px 20px;
+    padding: 0;
+}
+
+header .header-inner p:nth-of-type(1) {
+    font-size: 26px;
+}
+
+header .header-inner p:nth-of-type(2) {
+    font-size: 38px;
+}
+
+header .header-text {
+    display: none;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+header .header-inner .main-header-figure img {
+    width: 100%;
+    height: auto;
+
+}
