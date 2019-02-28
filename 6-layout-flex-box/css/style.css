@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     margin: 0;
     padding: 1px;
@@ -12,25 +17,28 @@ header {
   } 
 
 .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
   }  
 
 .aside-left {
-  width: 20%;
-  background-color: rgb(24, 177, 24);
+    order: -1;
+    width: 20%;
+    background-color: rgb(24, 177, 24);
+    text-align: center;
   }
 
 article {
-  width: 60%;
-  background-color: #49b6ff;  
-  }
+    width: 60%;
+    background-color: #49b6ff;
+    text-align: center;
+}
 
 .aside-right {
-  width: 20%;
-  background-color: rgb(230, 173, 230);
+    width: 20%;
+    background-color: rgb(230, 173, 230);
+    text-align: center;
   }
 
 footer {
