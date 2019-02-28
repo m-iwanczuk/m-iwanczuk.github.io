@@ -1,0 +1,39 @@
+body {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+header {
+    margin: 0;
+    padding: 1px;
+    background-color: rgb(224, 83, 17);
+  } 
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  }  
+
+.aside-left {
+  width: 20%;
+  background-color: rgb(24, 177, 24);
+  }
+
+article {
+  width: 60%;
+  background-color: #49b6ff;  
+  }
+
+.aside-right {
+  width: 20%;
+  background-color: rgb(230, 173, 230);
+  }
+
+footer {
+    padding: 1px;
+    background-color: rgb(154, 1, 214);
+  } 
