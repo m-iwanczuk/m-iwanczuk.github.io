@@ -31,6 +31,7 @@ header {
 
 article {
     width: 60%;
+    height: 200px;
     background-color: #49b6ff;
     text-align: center;
 }
