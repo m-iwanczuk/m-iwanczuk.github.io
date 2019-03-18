@@ -1,0 +1,44 @@
+
+.body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.skills {
+    color: #918b8a;
+    font-weight: 400;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.skills hr {
+    width: 200px;
+}
+
+.skills .fab {
+    color: #e38f41;
+    font-size: 60px;
+}
+
+.skills .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.skills .circle-skill-bcg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.skills .skill-discription {
+    text-align: center;
+}
+
