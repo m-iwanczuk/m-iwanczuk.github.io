@@ -1,0 +1,20 @@
+.body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.faq {
+    color: #918b8a;
+    font-weight: 400;
+}
+
+.faq h2 {
+    text-align: center;
+}
+
+.faq hr {
+    width: 200px;
+}
+
+.faq .btn {
+    color: #e38f41;
+}
