@@ -62,4 +62,5 @@
 .main-div figure {
     margin: 0;
     padding: 0;
+    margin-block-end: -2px;
 }
